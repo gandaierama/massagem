@@ -36,8 +36,8 @@ const Listagem =({info, add})=>{
             <Card.Body>
               <Card.Title>João</Card.Title>
          
-              <Button variant="success">+ info</Button>
-              <Button variant="primary" style={{marginLeft:20}}>Contato <FaShoppingCart/></Button>
+              <Button variant="dark">+ info</Button>
+              <Button variant="dark" style={{marginLeft:20}}>Contato <FaShoppingCart/></Button>
             </Card.Body>
           </Card>
           </Col>
