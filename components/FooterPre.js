@@ -6,7 +6,7 @@ const  FooterPre=()=> {
 
   return (
 
-    <Navbar  bg="dark">
+    <Navbar  bg="dark" style={{backgroundColor:'#000'}}>
     <Container>
       <Navbar.Brand >
         <a

@@ -30,7 +30,7 @@ const Listagem =({info, add})=>{
 
           <Col key={1}>
           <Card className="mb-3 p-3" style={{ width: '18rem' }} >
-            <Card.Img variant="top" style={{ maxHeight: '200px', minHeight: '200px' }}   src="./foto1.jpeg" />
+            <Card.Img variant="top"    src="./foto1.jpeg" />
             <Card.Body>
               <Card.Title>João</Card.Title>
          
@@ -42,7 +42,7 @@ const Listagem =({info, add})=>{
 
           <Col key={1}>
           <Card className="mb-3 p-3" style={{ width: '18rem' }} >
-            <Card.Img variant="top" style={{ maxHeight: '200px', minHeight: '200px' }}   src="./foto1.jpeg" />
+            <Card.Img variant="top"    src="./foto1.jpeg" />
             <Card.Body>
               <Card.Title>João</Card.Title>
          
@@ -54,7 +54,7 @@ const Listagem =({info, add})=>{
 
           <Col key={2}>
           <Card className="mb-3 p-3" style={{ width: '18rem' }} >
-            <Card.Img variant="top" style={{ maxHeight: '200px', minHeight: '200px' }}   src="./foto2.jpeg" />
+            <Card.Img variant="top"    src="./foto2.jpeg" />
             <Card.Body>
               <Card.Title>João</Card.Title>
          
@@ -66,7 +66,7 @@ const Listagem =({info, add})=>{
 
           <Col key={3}>
           <Card className="mb-3 p-3" style={{ width: '18rem' }} >
-            <Card.Img variant="top" style={{ maxHeight: '200px', minHeight: '200px' }}   src="./foto3.jpeg" />
+            <Card.Img variant="top"    src="./foto3.jpeg" />
             <Card.Body>
               <Card.Title>João</Card.Title>
          
@@ -78,7 +78,7 @@ const Listagem =({info, add})=>{
 
           <Col key={4}>
           <Card className="mb-3 p-3" style={{ width: '18rem' }} >
-            <Card.Img variant="top" style={{ maxHeight: '200px', minHeight: '200px' }}   src="./foto4.jpeg" />
+            <Card.Img variant="top"    src="./foto4.jpeg" />
             <Card.Body>
               <Card.Title>João</Card.Title>
          
@@ -90,7 +90,7 @@ const Listagem =({info, add})=>{
 
           <Col key={5}>
           <Card className="mb-3 p-3" style={{ width: '18rem' }} >
-            <Card.Img variant="top" style={{ maxHeight: '200px', minHeight: '200px' }}   src="./foto5.jpeg" />
+            <Card.Img variant="top"    src="./foto5.jpeg" />
             <Card.Body>
               <Card.Title>João</Card.Title>
          
