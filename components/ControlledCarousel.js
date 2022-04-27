@@ -30,7 +30,8 @@ const  ControlledCarousel=({info})=> {
             
           <h1>Clube da Massagem</h1>
           <h4>Agende já sua massagem conosco.</h4>
-        
+          <br/>
+          <Button variant="success">Saiba Mais</Button>
         </Col>
       </Row>
       </Container>
