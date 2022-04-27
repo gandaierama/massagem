@@ -26,8 +26,8 @@ const  ControlledCarousel=({info})=> {
         />
       </div>
        </Col>
-       <Col md={5} style={{ color:'#fff', textAlign:'center', flex:1}}>
-   
+       <Col md={5} className="justify-content-center" style={{ color:'#fff', textAlign:'center', flex:1}}>
+            
           <h1>Clube da Massagem</h1>
           <h4>Agende já sua massagem conosco.</h4>
         

@@ -6,7 +6,7 @@ const  FooterPre=()=> {
 
   return (
 
-    <Navbar  bg="light">
+    <Navbar  bg="dark">
     <Container>
       <Navbar.Brand >
         <a
@@ -14,7 +14,7 @@ const  FooterPre=()=> {
         target="_blank"
         rel="noopener noreferrer"
       >
-        Daniel Batista Galvão
+        RHS
       </a>
       </Navbar.Brand>
     </Container>
