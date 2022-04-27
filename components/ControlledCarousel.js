@@ -46,7 +46,7 @@ const  ControlledCarousel=({info})=> {
         <img
           className="d-block mx-auto"
           style={{ height:400}}
-          src="./image1.png"
+          src="./image1.jpeg"
           alt="First slide"
         />
       </div>
