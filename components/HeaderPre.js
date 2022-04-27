@@ -6,7 +6,7 @@ const  HeaderPre=({handleShow, handleShow2, handleShow3})=> {
 
 
   return (
-    <Navbar bg="dark" expand="lg" style={{backgroundColor:'#000'}}>
+    <Navbar expand="lg" style={{backgroundColor:'#000'}}>
         <Container fluid>
           <Navbar.Brand href="#"><img src="./logo.jpeg" width="100" /> </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

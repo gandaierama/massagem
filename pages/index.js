@@ -28,17 +28,7 @@ const Listagem =({info, add})=>{
     <Container>
       <Row>
 
-          <Col key={1}>
-          <Card className="mb-3 p-3" style={{ width: '18rem' }} >
-            <Card.Img variant="top"    src="./foto1.jpeg" />
-            <Card.Body>
-              <Card.Title>João</Card.Title>
-         
-              <Button variant="success">+ info</Button>
-              <Button variant="primary" style={{marginLeft:20}}>Contato <FaShoppingCart/></Button>
-            </Card.Body>
-          </Card>
-          </Col>
+
 
           <Col key={1}>
           <Card className="mb-3 p-3" style={{ width: '18rem' }} >
