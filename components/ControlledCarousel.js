@@ -11,8 +11,8 @@ const  ControlledCarousel=({info})=> {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect} className="d-none d-md-block" style={{ width:'100%', padding:30, backgroundColor:'#000', marginBottom:30}}>
 
-    {info.map((item, index) => (
-      <Carousel.Item key={index} style={{ width:'100%', padding:30, backgroundColor:'#000'}}>
+
+      <Carousel.Item key={1} style={{ width:'100%', backgroundColor:'#000'}}>
       <Container fluid className="w-100 ">
       <Row >
       <Col md={5}>
@@ -20,24 +20,22 @@ const  ControlledCarousel=({info})=> {
       <div className="justify-content-center">
         <img
           className="d-block mx-auto"
-          style={{ height:300, borderRadius:'20px', border:'20px solid #fff'}}
-          src={item.attributes.link_image}
+          style={{ height:400}}
+          src="./image2.png"
           alt="First slide"
         />
       </div>
        </Col>
-       <Col md={5} style={{ color:'#fff', textAlign:'center'}}>
+       <Col md={5} style={{ color:'#fff', textAlign:'center', flex:1}}>
    
-          <h1>{item.attributes.title}</h1>
-          <h4>{item.attributes.description}</h4>
-          <hr/>
-          <h2><span style={{textDecorationLine: 'line-through', textDecorationStyle: 'solid', fontSize:15}}>de R${item.attributes.price.toLocaleString('pt-BR')}</span>
-          <br/> por R$ {item.attributes.price_promotional.toLocaleString('pt-BR')}</h2>
+          <h1>Clube da Massagem</h1>
+          <h4>Agende já sua massagem conosco.</h4>
+        
         </Col>
       </Row>
       </Container>
       </Carousel.Item>
-    ))}
+
       
     </Carousel>
   );
