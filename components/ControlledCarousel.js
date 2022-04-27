@@ -37,6 +37,31 @@ const  ControlledCarousel=({info})=> {
       </Container>
       </Carousel.Item>
 
+      <Carousel.Item key={2} style={{ width:'100%', backgroundColor:'#000'}}>
+      <Container fluid className="w-100 ">
+      <Row >
+      <Col md={5}>
+
+      <div className="justify-content-center">
+        <img
+          className="d-block mx-auto"
+          style={{ height:400}}
+          src="./image1.png"
+          alt="First slide"
+        />
+      </div>
+       </Col>
+       <Col md={5} className="justify-content-center" style={{ color:'#fff', textAlign:'center', flex:1}}>
+            
+          <h1>Clube da Massagem</h1>
+          <h4>Agende já sua massagem conosco.</h4>
+          <br/>
+          <Button variant="success">Saiba Mais</Button>
+        </Col>
+      </Row>
+      </Container>
+      </Carousel.Item>
+
       
     </Carousel>
   );
