@@ -8,15 +8,9 @@ const  FooterPre=()=> {
 
     <Navbar  bg="dark" style={{backgroundColor:'#000'}}>
     <Container>
-      <Navbar.Brand >
-        <a
-        href="https://github.com/gandaierama/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        RHS
-      </a>
-      </Navbar.Brand>
+      <Col>
+        Travessa dos Arquitetos 5, Bela Vista - Centro SP
+      </Col>
     </Container>
   </Navbar>
 );

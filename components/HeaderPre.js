@@ -18,6 +18,7 @@ const  HeaderPre=({handleShow, handleShow2, handleShow3})=> {
             >
             </Nav>
             <Nav className="d-flex">
+              <div>11 97079-6948</div>
               <Button variant="dark" onClick={handleShow} style={{marginLeft:20}}>Contato</Button>
               
             </Nav>
