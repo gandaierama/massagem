@@ -28,50 +28,7 @@ const Listagem =()=>{
   return (
     <Container>
 
-      <Row>
-        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-          <Row>
-            <Col sm={3}>
-              <Nav variant="pills" className="flex-column">
-                <Nav.Item>
-                  <Nav.Link eventKey="one">Relaxante</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="two">Erótica</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="tree">Sensual</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="four">Tântrica</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="five">Sensitive</Nav.Link>
-                </Nav.Item>
-              </Nav>
-            </Col>
-            <Col sm={9}>
-              <Tab.Content>
-                <Tab.Pane eventKey="one">
-                  
-                </Tab.Pane>
-                <Tab.Pane eventKey="two">
-                  
-                </Tab.Pane>
-                <Tab.Pane eventKey="tree">
-                  
-                </Tab.Pane>
-                <Tab.Pane eventKey="four">
-                  
-                </Tab.Pane>
-                <Tab.Pane eventKey="five">
-                  
-                </Tab.Pane>
-              </Tab.Content>
-            </Col>
-          </Row>
-        </Tab.Container>
-      </Row>
+
       <Row>
 
 
@@ -140,13 +97,55 @@ const Listagem =()=>{
           
    
         </Row>
-        <Row>
-        <Col>
-          <Player style={{ width: '100%' }}>
-            <source src="./video.mp4" />
-          </Player>
-        </Col>
-        </Row>
+              <Row>
+        <Alert variant="dark">
+  <Alert.Heading>Especialidades </Alert.Heading>
+  <p>
+   MASSAGEM RELAXANTE
+"Trata-se de manobras especializadas empregadas no músculo,"
+"conferindo ao indivíduo um pleno relaxamento e gerando inúmeros benefícios para o organismo como um todo, tanto ao corpo quanto à mente."
+  </p>
+  <hr />
+  <p className="mb-0">
+MASSAGEM ERÓTICA
+"Estimula e desperta diversas partes íntimas do corpo, sendo essencial"
+para expressar sentimentos e conecta-se com a outra pessoa trocando assim energias deliciosas e inesquecíveis.
+  </p>
+  <hr />
+  <p className="mb-0">
+MASSAGEM SENSUAL
+"Ajuda aumentar a intimidade, desejo e estimula a comunicação e"
+sensibiliza o corpo que passa a desfrutar de mais sensações gostosas.
+  </p>
+  <hr />
+  <p className="mb-0">
+MASSAGEM SENSITIVE
+É feita apenas com às pontas dos dedos percorrendo lentamente cada
+"zona érogena, para sentir os pelos, os poros arrepiados despertando incrível e deliciosa sensação de bem-esta e prazer."
+  </p>
+  <hr />
+  <p className="mb-0">
+MASSAGEM TÂNTRICA
+"Expande os limites do autoconhecimento, onde estimulam a libido"
+encontrando pontos excitantes para proporcionar momentos intensos de prazer.
+  </p>
+  <hr />
+  <p className="mb-0">
+BENIFÍCIOS À SAÚDE PROPORCIONADO PELAS MASSAGENS:
+- Redução da ansiedade
+- Alívio do estresse
+- Melhora a concentração
+- Ajuda no apetite
+- Combate a insônia
+- Combate a depressão
+- Ajuda na circulação sanguínea
+- Estimula o sistema linfático
+- Diminui a tensão
+- Alivia a dor muscular
+  </p>
+
+</Alert>
+      </Row>
       </Container>
   );
 }
