@@ -8,11 +8,11 @@ const  FooterPre=()=> {
 
     <Navbar  bg="dark" style={{backgroundColor:'#000'}}>
     <Container>
-      <Col sm={6}>
+      <Col md={6}>
         Travessa dos Arquitetos 5, Bela Vista - Centro SP
       </Col>
-      <Col sm={6}>
-        <a href="https://www.instagram.com/clubemanoblack/"><FaInstagram/></a>
+      <Col md={6}>
+        <a href="https://www.instagram.com/clubemanoblack/"><Button variant="dark" onClick={handleShow} style={{marginLeft:20}}><FaInstagram/></Button></a>
       </Col>
     </Container>
   </Navbar>
