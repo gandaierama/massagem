@@ -6,14 +6,14 @@ import {FooterPre, Cadastro, ControlledCarousel, HeaderPre, Carrinho, Login } fr
 import { Carousel, Button, Card, Navbar, Container, Form, FormControl, Nav, NavDropdown, Row, Col, Dropdown, DropdownButton, Modal} from 'react-bootstrap';
 import {FaUserAlt, FaShoppingCart} from "react-icons/fa";
 import { Player } from 'video-react';
-
+import "node_modules/video-react/styles/scss/video-react.scss"; 
 
 import img from '../assets/image1.jpeg';
 
 const HeadPrecode =()=>{
   return(
     <Head>
-      <title>Clube de Massagem</title>
+      <title>Clube de Mano Black de Massagem</title>
       <meta name="description" content="Massagem relaxante" />
       <link rel="icon" href="/logo.jpeg" />
 
@@ -163,8 +163,8 @@ export default function Home(props) {
 
 export async function getServerSideProps() {
   // Fetch data from external API
-  const res = await fetch(`https://sheltered-meadow-49957.herokuapp.com/api/products`)
-  const data = await res.json()
+  // const res = await fetch(`https://sheltered-meadow-49957.herokuapp.com/api/products`)
+  const data = {};
 
   // Pass data to the page via props
   return { props: { data } }
