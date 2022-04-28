@@ -97,9 +97,9 @@ const Listagem =({info, add})=>{
         </Row>
         <Row>
         <Col>
-          <Player style={{ width: '500px' }}>
-        <source src="./video.mp4" />
-      </Player>
+          <Player style={{ width: '100%' }}>
+            <source src="./video.mp4" />
+          </Player>
         </Col>
         </Row>
       </Container>
