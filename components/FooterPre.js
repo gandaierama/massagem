@@ -12,7 +12,7 @@ const  FooterPre=()=> {
         Travessa dos Arquitetos 5, Bela Vista - Centro SP
       </Col>
       <Col md={6}>
-        <a href="https://www.instagram.com/clubemanoblack/"><Button variant="dark" onClick={handleShow} style={{marginLeft:20}}><FaInstagram/></Button></a>
+        <a href="https://www.instagram.com/clubemanoblack/"><Button variant="dark"  style={{marginLeft:20}}><FaInstagram/></Button></a>
       </Col>
     </Container>
   </Navbar>
