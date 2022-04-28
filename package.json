@@ -17,7 +17,8 @@
     "react-dom": "18.0.0",
     "react-icons": "^4.3.1",
     "react-image-crop": "^10.0.0",
-    "react-image-file-resizer": "^0.4.7"
+    "react-image-file-resizer": "^0.4.7",
+    "video-react": "^0.15.0"
   },
   "devDependencies": {
     "eslint": "8.13.0",
