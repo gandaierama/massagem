@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React, {useState} from 'react'
 import styles from '../styles/Home.module.css'
 import {FooterPre, Cadastro, ControlledCarousel, HeaderPre, Carrinho, Login } from '../components'
-import { Carousel, Button, Card, Navbar, Container, Form, FormControl, Nav, NavDropdown, Row, Col, Dropdown, DropdownButton, Modal} from 'react-bootstrap';
+import { Tab, Carousel, Button, Card, Navbar, Container, Form, FormControl, Nav, NavDropdown, Row, Col, Dropdown, DropdownButton, Modal} from 'react-bootstrap';
 import {FaUserAlt, FaShoppingCart, FaInstagram} from "react-icons/fa";
 import { Player } from 'video-react';
 
@@ -27,6 +27,51 @@ const HeadPrecode =()=>{
 const Listagem =({info, add})=>{
   return (
     <Container>
+
+      <Row>
+        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
+          <Row>
+            <Col sm={3}>
+              <Nav variant="pills" className="flex-column">
+                <Nav.Item>
+                  <Nav.Link bg="dark" eventKey="one">Relaxante</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link  bg="dark" eventKey="two">Erótica</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link  bg="dark" eventKey="tree">Sensual</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link  bg="dark" eventKey="four">Tântrica</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                  <Nav.Link  bg="dark" eventKey="five">Sensitive</Nav.Link>
+                </Nav.Item>
+              </Nav>
+            </Col>
+            <Col sm={9}>
+              <Tab.Content>
+                <Tab.Pane eventKey="one">
+                  
+                </Tab.Pane>
+                <Tab.Pane eventKey="two">
+                  
+                </Tab.Pane>
+                <Tab.Pane eventKey="tree">
+                  
+                </Tab.Pane>
+                <Tab.Pane eventKey="four">
+                  
+                </Tab.Pane>
+                <Tab.Pane eventKey="five">
+                  
+                </Tab.Pane>
+              </Tab.Content>
+            </Col>
+          </Row>
+        </Tab.Container>
+      </Row>
       <Row>
 
 
