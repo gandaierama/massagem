@@ -6,7 +6,7 @@ import {FooterPre, Cadastro, ControlledCarousel, HeaderPre, Carrinho, Login } fr
 import { Carousel, Button, Card, Navbar, Container, Form, FormControl, Nav, NavDropdown, Row, Col, Dropdown, DropdownButton, Modal} from 'react-bootstrap';
 import {FaUserAlt, FaShoppingCart, FaInstagram} from "react-icons/fa";
 import { Player } from 'video-react';
-import "node_modules/video-react/styles/scss/video-react.scss"; 
+
 
 import img from '../assets/image1.jpeg';
 
