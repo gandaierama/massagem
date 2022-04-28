@@ -24,7 +24,7 @@ const HeadPrecode =()=>{
 
 
 
-const Listagem =({info, add})=>{
+const Listagem =()=>{
   return (
     <Container>
 
@@ -152,12 +152,7 @@ const Listagem =({info, add})=>{
 }
 export default function Home(props) {
 
-  let info =props.data.data;
 
-  const [carr, setCarr] = useState({
-    itens: [],
-    total: 0
-  });
 
   const [show, setShow] = useState(false);
   const handleShow = () => setShow(true);
@@ -168,18 +163,7 @@ export default function Home(props) {
   const [show3, setShow3] = useState(false);
   const handleShow3 = () => setShow3(true);
 
-  const add =(ad)=>{
-    console.log(ad);
 
-
-    carr.itens.push({id: ad.item.id, qtd: 1, value: ad.item.attributes.price});
-
-
-
-    console.log(carr);
-  }
-
- 
 
   return (
     <div >
@@ -189,8 +173,8 @@ export default function Home(props) {
 
       <main className={styles.main}>
         <Cadastro show={show} setShow={setShow}/>
-        <ControlledCarousel info={info}/>
-        <Listagem info={info} add={add} />
+        <ControlledCarousel />
+        <Listagem  />
       </main>
 
       <FooterPre />
@@ -198,7 +182,6 @@ export default function Home(props) {
 
       
       <Login show2={show2} setShow2={setShow2}/>
-      <Carrinho show3={show3} setShow3={setShow3} carr={carr}/>
 
     </div>
   )
