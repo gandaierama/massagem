@@ -34,19 +34,19 @@ const Listagem =({info, add})=>{
             <Col sm={3}>
               <Nav variant="pills" className="flex-column">
                 <Nav.Item>
-                  <Nav.Link bg="dark" eventKey="one">Relaxante</Nav.Link>
+                  <Nav.Link eventKey="one">Relaxante</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link  bg="dark" eventKey="two">Erótica</Nav.Link>
+                  <Nav.Link eventKey="two">Erótica</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link  bg="dark" eventKey="tree">Sensual</Nav.Link>
+                  <Nav.Link eventKey="tree">Sensual</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link  bg="dark" eventKey="four">Tântrica</Nav.Link>
+                  <Nav.Link eventKey="four">Tântrica</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link  bg="dark" eventKey="five">Sensitive</Nav.Link>
+                  <Nav.Link eventKey="five">Sensitive</Nav.Link>
                 </Nav.Item>
               </Nav>
             </Col>
