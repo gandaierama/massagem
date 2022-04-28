@@ -1,5 +1,5 @@
 import { Button, Card, Navbar, Container, Nav, NavDropdown, Row, Col, Dropdown, DropdownButton, Modal} from 'react-bootstrap';
-import {FaUserAlt, FaShoppingCart} from "react-icons/fa";
+import {FaInstagram} from "react-icons/fa";
 
 const  FooterPre=()=> {
 
@@ -8,8 +8,11 @@ const  FooterPre=()=> {
 
     <Navbar  bg="dark" style={{backgroundColor:'#000'}}>
     <Container>
-      <Col>
+      <Col sm={6}>
         Travessa dos Arquitetos 5, Bela Vista - Centro SP
+      </Col>
+      <Col sm={6}>
+        <a href="https://www.instagram.com/clubemanoblack/"><FaInstagram/></a>
       </Col>
     </Container>
   </Navbar>

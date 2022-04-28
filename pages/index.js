@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 import styles from '../styles/Home.module.css'
 import {FooterPre, Cadastro, ControlledCarousel, HeaderPre, Carrinho, Login } from '../components'
 import { Carousel, Button, Card, Navbar, Container, Form, FormControl, Nav, NavDropdown, Row, Col, Dropdown, DropdownButton, Modal} from 'react-bootstrap';
-import {FaUserAlt, FaShoppingCart} from "react-icons/fa";
+import {FaUserAlt, FaShoppingCart, FaInstagram} from "react-icons/fa";
 import { Player } from 'video-react';
 import "node_modules/video-react/styles/scss/video-react.scss"; 
 
